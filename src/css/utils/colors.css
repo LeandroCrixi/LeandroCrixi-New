@@ -1,0 +1,45 @@
+/* Website color variables and utility classes */
+:root {
+    --color-bg-main: #211e22;
+    --color-bg-secondary: #18161a;
+    --color-primary: #ff2e8a;
+    --color-primary-hover: #e0267a;
+    --color-secondary: #23272f;
+    --color-secondary-hover: #2d2f36;
+    --color-text-main: #fff;
+    --color-text-secondary: #e0e0e0;
+    --color-shadow: rgba(255, 46, 138, 0.12);
+    --color-shadow-dark: rgba(0, 0, 0, 0.35);
+}
+
+/* Utility Classes */
+.bg-main {
+    background: var(--color-bg-main) !important;
+}
+
+.bg-secondary {
+    background: var(--color-bg-secondary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.text-secondary {
+    color: var(--color-text-secondary) !important;
+}
+
+.text-main {
+    color: var(--color-text-main) !important;
+}
+
+.btn-primary {
+    background: var(--color-primary) !important;
+    color: var(--color-text-main) !important;
+}
+
+.btn-secondary {
+    background: var(--color-secondary) !important;
+    color: var(--color-primary) !important;
+    border: 2px solid var(--color-primary) !important;
+}

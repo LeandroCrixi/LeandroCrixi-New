@@ -1,0 +1,18 @@
+@import url('utils/global.css');
+@import url('utils/typography.css');
+@import url('utils/colors.css');
+
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('utils/components.css');
+@import url('hero-section/hero-section.css');
+@import url('components/sections.css');
+
+/* Main stylesheet */
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    background: var(--color-bg-main);
+    color: var(--color-text-main);
+}

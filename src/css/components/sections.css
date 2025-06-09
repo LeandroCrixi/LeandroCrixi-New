@@ -1,0 +1,117 @@
+/* Sections styling for Services, Projects, Work Together, About, Contact */
+
+/* Work Together Section */
+.work-together-section {
+    background: var(--color-bg-secondary);
+    padding: 64px 0 48px 0;
+}
+
+.work-together-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.work-together-steps {
+    flex: 2 1 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.step-icon {
+    font-size: 2.1rem;
+    color: var(--color-primary);
+    margin-top: 0.2rem;
+}
+
+.step h3 {
+    color: var(--color-text-main);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.step p {
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.work-together-image {
+    flex: 1 1 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.work-together-image img {
+    width: 320px;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px var(--color-shadow-dark);
+}
+
+/* Contact Section */
+.contact-section {
+    background: var(--color-primary);
+    padding: 64px 0 48px 0;
+}
+
+.contact-section .section-title {
+    color: var(--color-bg-main);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background: var(--color-bg-main);
+    border-radius: 16px;
+    box-shadow: 0 4px 32px var(--color-shadow-dark);
+    padding: 2rem 1.5rem;
+    color: var(--color-text-main);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-card h3 {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.contact-card a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 40px var(--color-shadow);
+}
+
+@media (max-width: 900px) {
+
+    .work-together-content,
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .work-together-image img,
+    .about-image img {
+        width: 100%;
+        max-width: 340px;
+    }
+}

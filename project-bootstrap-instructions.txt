@@ -1,0 +1,22 @@
+Project Bootstrap Script for Website Starter
+
+Please set up a basic HTML5 website project with the following structure and conventions:
+
+1. Create an index.html file with a valid HTML5 boilerplate. Link only src/css/style.css in the <head>, and src/js/script.js before the closing </body>.
+2. Inside a src folder, create:
+    - css folder with:
+        - style.css (main stylesheet, imports all other CSS)
+        - utils folder for utility/global styles:
+            - global.css (CSS reset)
+            - typography.css (typography utilities)
+            - colors.css (color variables/utilities)
+        - components folder for section/component styles:
+            - header.css
+            - footer.css
+    - js folder with:
+        - script.js (main JavaScript file)
+3. In style.css, import all utility and component CSS files using @import.
+4. Do not link any CSS file except style.css in index.html.
+5. Use best practices for folder naming and modular CSS organization.
+
+You can give these instructions to GitHub Copilot to quickly scaffold your next project.
