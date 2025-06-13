@@ -1,10 +1,10 @@
 .container {
-    padding: 64px 20px 48px 20px;
+    padding: 64px 20px 72px 20px;
 }
 
 @media (max-width: 900px){
     .container{
-        padding: 2.5rem 1.5rem;
+        padding: 5rem 1.5rem;
     }
 }
 
@@ -19,7 +19,7 @@
 
 @media (max-width: 900px) {
     .section-title {
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
     }
 }
 
